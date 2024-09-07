@@ -1,0 +1,41 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensures the body is centered vertically */
+  margin: 0; /* Removes default margin */
+}
+
+.main-container{
+  text-align: center;
+  width: 600px;
+  height: 500px;
+  background-color: rgb(221, 202, 178);
+  display: flex;
+  align-items: center; /* Fixes typo 'cneter' */
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #9e9494;
+}
+
+.main-container p{
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.joke{
+  height: 75%;
+  width: 80%;
+  background-color: rgb(109, 57, 57);
+  border-radius: 10px;
+  box-shadow: 10px 5px 20px black;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
